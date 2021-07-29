@@ -1,0 +1,20 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "wechat public account",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "codeland",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formstream": "^1.1.1",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "sha1": "^1.1.1",
+    "xml2js": "^0.4.23"
+  }
+}

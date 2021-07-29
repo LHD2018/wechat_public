@@ -1,0 +1,32 @@
+module.exports = {
+    "button":[
+    {	
+         "type":"click",
+         "name":"斗图",
+         "key":"fight_pic_key"
+     },
+     {	
+        "type":"click",
+        "name":"一句",
+        "key":"sentence_key"
+    },
+     {
+          "name":"关于我",
+          "sub_button":[
+          {	
+              "type":"view",
+              "name":"我的主页",
+              "url":"http://www.cloudlhd.cn/"
+           },
+           {	
+            "type":"view",
+            "name":"我的Blog",
+            "url":"http://blog.cloudlhd.cn/"
+         },
+         {	
+            "type":"click",
+            "name":"帮助",
+            "key":"help_key"
+        }]
+      }]
+}
